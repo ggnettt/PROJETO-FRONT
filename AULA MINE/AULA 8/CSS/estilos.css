@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(208, 255, 0);
+    background:linear-gradient(to right,rgb(255, 0, 0),rgb(202, 73, 21),rgb(255, 166, 0));
+
+    
+}
+
+h2{
+color: rgb(0, 0, 0);
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+p{
+   
+    color: rgb(0, 0, 0);
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p a{
+color:rgb(255, 251, 0);
+text-decoration: none;/*sumir sublinhado do link*/
+}
+
+p a:hover{
+    color:rgb(0, 0, 0);/*mudar a cor do link quando passa o mouse*/
+}
+
+
+
+
+img{
+width:1000px; /*define largura*/
+height: 500px; /*define altura*/
+
+
+}

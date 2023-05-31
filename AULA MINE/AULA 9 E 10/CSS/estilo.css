@@ -1,0 +1,74 @@
+body{
+background: linear-gradient(to right,rgb(0, 0, 0),rgb(80, 74, 74),rgb(0, 0, 0));
+color: aliceblue;
+margin:0;
+padding:0;
+text-align: center; /*centralizar na página*/
+font-family: Helvetica ;
+}
+
+
+header{
+display:flex; /*Colocar itens dentro do header um do lado do outro*/
+justify-content: space-around;/*centralizar junto com as outras partes*/
+justify-content: space-between;/*um em cada canto da página*/
+padding:1.5%;
+ border-bottom: 1px solid rgb(11, 119, 243); /*borda em baixo do cabeçalho*/
+ align-items: center;
+}
+
+header ul{
+list-style: none;
+display:flex ;
+
+}
+
+
+header ul li{
+margin-right: 10px;
+font-size:20px ;
+
+}
+
+header ul li a{
+    color: rgb(255, 255, 255);
+text-decoration: none; /*tirar sublinhado da palavra*/
+
+}
+
+
+ a:hover{
+    color:rgb(55, 0, 255);/*mudar a cor do link quando passa o mouse*/
+}
+
+footer p:hover{
+    
+        color:rgb(55, 0, 255);/*mudar a cor do link quando passa o mouse*/
+    }
+
+
+img{
+    border: 2px solid blue;/*borda na imagem*/
+  
+}
+header ul li a:hover{
+    text-decoration: underline; /*sublinha quando passa em cima das palavras*/
+}
+
+
+main img{
+    border:2px solid blue;
+    border-radius:30%;/*recorta as pontas (arredonda)*/
+}
+
+section{
+   
+    display: block;
+    margin: 0 auto;
+    width: 70%; /*largura do texto*/
+}
+
+
+
+
+
